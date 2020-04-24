@@ -1,7 +1,6 @@
 pytelegrambotapi
 psycopg2
 Flask
-threading
 random
 re
 os
