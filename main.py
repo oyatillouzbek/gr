@@ -1268,7 +1268,7 @@ def get_message():
 @server.route("/")
 def webhook():
     bot.remove_webhook()
-    bot.set_webhook(url="https://telebot-penteration.herokuapp.com/" + bot_token)
+    bot.set_webhook(url="https://mp3yz.herokuapp.com/" + bot_token)
     return "!", 200
 
 
